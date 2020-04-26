@@ -1,0 +1,125 @@
+body {
+	background-color: rgb(184,115,51);
+	background-image: url(../images/sf.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: american typewriter;
+}
+
+main {
+	background: rgba(255,255,255,0.8);
+	border-radius: 20px;
+	box-shadow: 10px 0px 20px 5px white;
+		/*left position, top position, size, blur, color */
+	max-width: 560px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	main {
+		background: blue;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	main {
+		background: red;
+	}
+}
+
+/*css comments look like this */
+
+h1 {
+	font-family: 'Manrope', sans-serif;
+	letter-spacing: 10px;
+	text-align: center;
+	background: yellow;
+	font-size: 50 px;
+	margin-top: 20px
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 10px;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+
+img {
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	border-top: 10px solid yellow;
+	border-bottom: 10px solid rgb(184,115,51);
+	border-left: 5px dashed yellow;
+	border-right:5px dashed yellow;
+	border-radius: 50% 0px 50% 0px;
+
+	transition: transform 2s;
+	transition-duration: 6s;
+}
+
+img:hover {
+	border-color: orange;
+	transform: scale(1.2);
+	transform: rotate(1800deg) scale(1.2);
+}
+
+p,
+ul,
+ol {
+	line-height: 1.7;
+	text-align: justify;
+	list-style: none;
+	padding-left: 30px;
+}
+
+a {
+	color: rgb(184,115,51);
+	font-weight: rgb(184,115,51);
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration: bold;
+}
+
+.avocado {
+	padding: 20px;
+}
+
+
+h3 + * {
+	display: none;
+}
+
+h3 {
+	margin-bottom:0;
+}
+
+h3:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
